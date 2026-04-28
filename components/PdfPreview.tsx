@@ -10,7 +10,7 @@ import type { Plan } from "@/lib/types";
  */
 export default function PdfPreview({ plan }: { plan: Plan | null }) {
   return (
-    <section className="flex-1 bg-[#2A3345] flex flex-col min-w-0">
+    <section className="flex-1 bg-dm-secondary-dark flex flex-col min-w-0">
       {/* Header */}
       <div className="h-14 bg-white border-b border-dm-border flex items-center justify-between px-5 shrink-0">
         <div className="font-bold text-dm-ink text-sm tracking-wider uppercase">

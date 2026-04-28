@@ -5,7 +5,7 @@ import type { ConfidenceField } from "@/lib/types";
 function confColor(c: number) {
   if (c === 0) return { dot: "bg-red-500", pct: "text-red-500" };
   if (c < 0.6) return { dot: "bg-amber-500", pct: "text-amber-500" };
-  if (c < 0.85) return { dot: "bg-sky-500", pct: "text-sky-600" };
+  if (c < 0.85) return { dot: "bg-dm-secondary", pct: "text-dm-secondary" };
   return { dot: "bg-emerald-500", pct: "text-emerald-600" };
 }
 
